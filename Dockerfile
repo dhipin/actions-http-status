@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-LABEL version="1.0"
+LABEL version="0.0.1"
 LABEL repository="https://github.com/dhipin/actions-http-status"
 LABEL homepage="https://github.com/dhipin/actions-http-status"
 LABEL maintainer="Dhipin <dhipin@dhip.in>"
