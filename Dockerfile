@@ -1,9 +1,9 @@
 FROM alpine:latest
 
-LABEL version="0.0.1"
-LABEL repository="https://github.com/lakuapik/gh-actions-http-status"
-LABEL homepage="https://github.com/lakuapik/gh-actions-http-status"
-LABEL maintainer="David Adi Nugroho <davidadi216@gmail.com>"
+LABEL version="1.0"
+LABEL repository="https://github.com/dhipin/actions-http-status"
+LABEL homepage="https://github.com/dhipin/actions-http-status"
+LABEL maintainer="Dhipin <dhipin@dhip.in>"
 
 RUN apk add bash curl jq
 
