@@ -17,7 +17,7 @@ jobs:
     steps:
     # ... uses ....
     - name: Check http status code of production site
-      uses: dhipin/actions-http-status
+      uses: dhipin/actions-http-status@v1
       with:
         sites: '["http://github.com", "https://education.github.com"]'
         expected: '[301, 200]'
